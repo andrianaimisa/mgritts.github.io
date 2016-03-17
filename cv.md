@@ -10,8 +10,11 @@ __Nevada Department of Wildlife__ - Data Manager
 `2012-13`
 __Washington Conservation Corps__ - Assistant Supervisor
 
+`2010-2011`
+__University of Nevada, Reno__ - Undergraduate Research Assistant
+
 ## Education
-`2008-12`
+`2007-12`
 __University of Nevada, Reno__ BSc Wildlife Ecology and Conservation
 
 ## Presentations
@@ -33,16 +36,16 @@ _Has Recent Climate Change Caused a Genetic Bottleneck in a Sierra Nevada Popula
 ## Technical skills
 
 * R
-* Python
 * SQL
 * VBA
 * Data visualization
+* Python
 
 ## Projects
 
 ### Applications
 
-NDOW Collar Export Shiny web application for the exploratory analysis and visualization of animal movement data.
+[Telemetry App](https://github.com/kissmygritts/CollarDataExport) - A Shiny application for the exploratory analysis and visualization of animal movement.
 
 ## Awards
 
