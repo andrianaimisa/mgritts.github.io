@@ -10,7 +10,7 @@ __Nevada Department of Wildlife__ - Data Manager
 `2012-13`
 __Washington Conservation Corps__ - Assistant Supervisor
 
-`2010-2011`
+`2010-11`
 __University of Nevada, Reno__ - Undergraduate Research Assistant
 
 ## Education
@@ -49,6 +49,5 @@ _Has Recent Climate Change Caused a Genetic Bottleneck in a Sierra Nevada Popula
 
 ## Awards
 
-Nevada IDeA Network of Biomedical Research Excellence Undergraduate Research Opportunity (2011)
-
-Nevada EPSCoR (2011)
+Nevada INBRE (2011) - undergraduate research  
+Nevada EPSCoR (2011) - undergraduate research

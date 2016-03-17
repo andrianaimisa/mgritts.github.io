@@ -11,7 +11,7 @@ The Reno R Users Group is dedicated to bringing together users to exchange knowl
 
 ## Meetings
 
-Meetings are currently scheduled for the first Thursday of every month. The first meeting will be April 7, 2016 from 6pm - 8pm (tentatively). The venue is TBD. If we can generate enough interest in the group I would like to have a series of "lightning talks" to introduce new or beginning users to the applications of R
+Meetings are currently scheduled for the first Thursday of every month. The first meeting will be April 7, 2016 from 6pm - 8pm (tentatively). The venue is TBD. If I can generate enough interest for the first meeting I would like to have a series of "lightning talks" to introduce new or beginning users to the applications of R
 
 ## Agenda
 
@@ -22,3 +22,5 @@ Generally meetings will consist of one or two talks about applications of R, tut
 ## Interested
 
 Email mitchellgritts@gmail.com to get on an email list for updates or if you are interested in presenting a lightning talk for the first meeting.
+
+Agenda will be finalized within the next week (3/24/2016).
