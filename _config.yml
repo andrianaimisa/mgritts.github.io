@@ -1,0 +1,22 @@
+# Dependencies
+markdown:         kramdown
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            Mitchell Gritts
+tagline:          'R and wildlife ecology'
+description:      'A chronicle of my trials and tribulations in R and wildlife ecology.'
+
+author:
+  name:           'Mitchell Gritts'
+
+paginate:         5
+gems: [jekyll-paginate]
+
+# Custom vars
+version:          0.0.1
+github:           https://github.com/kissmygritts
+
+excerpt_separator: <!--more-->
