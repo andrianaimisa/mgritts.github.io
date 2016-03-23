@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Wrapper functions for Leaflet in R"
-excerpt_separator: <!--more-->
 tags:
   - R
   - Leaflet
@@ -55,7 +54,7 @@ In my application the data is read using the `data.table` packaged. The `as.data
 
 The procedure on line 4 uses the `data.table` syntax to subset the data.table and return every 20 records. I do this to simplify the polylines on the leaflet map. Some of these animals have over 10,000 GPS locations, trying to plot all those makes for a messy map. I use the same method to plot only the 1st and last GPS location as circles on line 9. The resulting map looks like this.
 
-![CollarMap map](/assets/collarmap.png)
+![CollarMap map](/assets/collarmap.jpg)
 
 The second function `DeviceMapping` is similar to the first function, and honestly, should be combined with the first function. I've just been to lazy to do that at this point. The major difference is that this function plots every point and gives each animal a unique color. The function also creates a layer control box that allows user to click layers on and off.
 
