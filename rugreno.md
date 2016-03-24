@@ -11,16 +11,27 @@ The Reno R Users Group is dedicated to bringing together users to exchange knowl
 
 ## Meetings
 
-Meetings are currently scheduled for the first Thursday of every month. The first meeting will be April 7, 2016 from 6pm - 8pm (tentatively). The venue is TBD. If I can generate enough interest for the first meeting I would like to have a series of "lightning talks" to introduce new or beginning users to the applications of R
+Meetings are currently scheduled for the first Thursday of every month. The first meeting will be April 7, 2016 from 6pm - 8pm. Generally meetings will consist of one or two talks about applications of R, tutorials, and troubleshooting R code.
 
 ## Agenda
 
-The first meeting will consist of introductions, an introduction to R, general business, and planning future meetings.
+### When  
+April 7, 2016 6 - 8pm
 
-Generally meetings will consist of one or two talks about applications of R, tutorials, and troubleshooting R.
+### Where  
+Nevada Department of Wildlife Office  
+6980 Sierra Center Parkway, Suite 120
+
+### Details
+The first meeting will start with introductions, an introduction to R, then a few quick "lightning talks". After the talks we will discuss general business, and planning for future meetings. Generally meetings will consist of one or two talks about applications of R, tutorials, and troubleshooting R.
+
+### Lightning talks
+
+Please email me if you would like to give a lightning talk!
+
+1. Mitchell Gritts - Visualizing animal movement in R
+2. Jessi Brown - TBA
 
 ## Interested
 
-Email mitchellgritts@gmail.com to get on an email list for updates or if you are interested in presenting a lightning talk for the first meeting.
-
-Agenda will be finalized within the next week (3/24/2016).
+Email mitchellgritts@gmail.com to get on an email list for updates.
