@@ -21,6 +21,26 @@ Once your `.R` files are saved and `.Rd` files are generated with `devtools::doc
 
 The `rNDOW` package is very early in development. I've added three functions that I use very frequently for exploratory analysis and visualization of animal movement data (post on that soon!). The package will be used by my colleagues to interface with our data management systems. Due to this, many functions will have hard-coded or default values that make data analysis easier for us. Most of the functions will encapsulate common data munging, exploration, and visualization procedures.
 
+### Functions
+
+There are 4 functions in the package, `xyConv`, `moveParams`, `plotTraj` and `plot3DTraj`. I've included a randomly sampled animal trajectory for examples `muldDat`. The packages can be found at the [NDOW-ARG/rNDOW repository](https://github.com/NDOW-ARG/rNDOW). The functions solve a common workflow I have in R, converting latlong coordinates to UTM, adding parameters for animal movement models, and plotting the animal trajectory for exploratory visualization. More information on the input and specifics of the functions can be found at the bottom of the post.
+
+### Use
+
+Here is an example of how I use the functions.
+
+{% highlight r %}
+data(muldDat)
+df <- xyConv(muldDat)
+df <- moveParams(df$X, df$Y, df$timestamp, dat = df, isPOSIXct = F)
+plotTraj(df$X, df$Y)
+plot3DTraj(df$X, df$Y, df$timestamp, df$timestamp)
+{% endhighlight %}
+
+Line 1 calls the data from the package. Line 2 converts the coordinates to UTM Zone 11, the default options work for me. Line 3 adds the movement parameters to the dataframe. The timestamp isn't class `POSIXct` so I convert it using the `fasttime` library. Line 4 and 5 plot the trajectory. Line 5 creates a "space time cube", a visualization of the spatial and temporal distribution of the animals GPS locations.
+
+## About the functions
+
 ### `xyConv`
 
 Convert geographic coordinates from one coordinate system to another. The input is:
@@ -110,6 +130,41 @@ plotTraj <- function(x, y) {
   points(x[length(x)], y[length(y)], col = 'red', pch = 19, cex = 1.25)
 }
 {% endhighlight %}
+
+### `plot3DTraj`
+
+Another simple function to plot the animal trajectory in 3D. Specify a Z value and value for the color. When plotted the figure will spin, and is interactive.
+
+{% highlight r %}
+plot3DTraj <- function(x, y, z, colval) {
+  myColorRamp <- function(colors, values) {
+    v <- (values - min(values)) / diff(range(values))
+    x <- colorRamp(colors)(v)
+    return(rgb(x[, 1], x[, 2], x[, 3], maxColorValue = 255))
+  }
+  if ('POSIXct' %in% class(colval)) {
+    colval <- 1:length(colval)
+  }
+  xyPanel <- min(z, na.rm = T) - 10
+
+  cols <- myColorRamp(c('purple', 'springgreen', 'yellow'), colval)
+
+  plot3d(x, y, z, type = 'l', col = 'darkgrey')
+  plot3d(x, y, z, type = 'p', col = cols, add = T, size = 5)
+  plot3d(x, y, xyPanel, type = 'l', col = 'lightgrey', add = T)
+
+
+  play3d(spin3d(rpm = 3), duration = 20)
+}
+{% endhighlight %}
+
+### `muldDat`
+
+A randomly sampled animal trajectory. There are 500 rows and 3 fields:
+
+1. long_x - longitude coordinate
+2. lat_y - latitude coordinate
+3. timestamp - character of the date/time the coordinates were taken (YYYY-MM-DD HH:MM:SS)
 
 ## Future work
 
