@@ -7,13 +7,13 @@ title: CV Test
 ## Employment
 
 `2013-`
-__Nevada Department of Wildlife__ Data manager
+__Nevada Department of Wildlife__ - Data manager
 
 `2012-13`
-__Washington Conservation Corps__ Assistant supervisor
+__Washington Conservation Corps__ - Assistant supervisor
 
 `2010-11`
-__University of Nevada, Reno__ Undergraduate research assistant
+__University of Nevada, Reno__ - Undergraduate research assistant
 
 ## Education
 
@@ -50,6 +50,9 @@ Has Recent Climate Change Caused a Genetic Bottleneck in a Sierra Nevada Populat
 
 ## Projects
 
+### rNDOW
+An R packaged for data processing, visualization, and analysis for the Nevada Department of Wildlife.
+
 ### Telemetry App
 A Shiny application for the exploratory analysis and visualization of animal movement.
 
@@ -65,12 +68,15 @@ Nevada EPSCoR (undergraduate research)
 ## Links
 
 * <i class="fa fa-envelope"></i> <a href="mailto:mitchellgritts@gmail.com">mitchellgritts@gmail.com</a><br />
-* <i class="fa fa-github"></i> <a href="http://github.com/kissmygritts">kissmygritts</a><br />
-* <a href="http://mgritts.github.io">mgritts</a><br />
+* <i class="fa fa-github"></i> <a href="http://github.com/kissmygritts">Mitchell Gritts</a><br />
+* <i class="fa fa-github"></i> <a href="http://github.com/NDOW-ARG/rNDOW">rNDOW</a><br />
 
 ## References
 
 Available on request.
+
+## Back
+[Back to mgritts.github.io](http://mgritts.github.io)
 
 <!-- ### Footer
 
