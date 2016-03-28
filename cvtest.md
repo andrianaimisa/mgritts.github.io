@@ -65,6 +65,12 @@ A data management system for the big game encounter and health data.
 Nevada INBRE (undergraduate research)  
 Nevada EPSCoR (undergraduate research)
 
+## Memberships
+`2015-`
+The Wildlife Society (Nevada Chapter, Western Section, National)
+`2010-12`
+The Wildlife Society (Western Section)
+
 ## Links
 
 * <i class="fa fa-envelope"></i> <a href="mailto:mitchellgritts@gmail.com">mitchellgritts@gmail.com</a><br />

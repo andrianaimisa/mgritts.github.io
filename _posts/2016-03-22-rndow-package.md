@@ -169,3 +169,8 @@ A randomly sampled animal trajectory. There are 500 rows and 3 fields:
 ## Future work
 
 The immediate goal is to provide a framework for more complex movement analysis, including the estimation of home ranges and segmenting trajectories based on behavior.
+
+## Updates
+
+**2016-03-36**  
+I've stopped using `data.table` package as it is a new syntax that needs to be learned.
