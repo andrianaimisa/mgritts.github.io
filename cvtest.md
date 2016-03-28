@@ -79,15 +79,12 @@ The Wildlife Society (Western Section)
 
 * <i class="fa fa-envelope"></i> <a href="mailto:mitchellgritts@gmail.com">mitchellgritts@gmail.com</a><br />
 * <i class="fa fa-github"></i> <a href="http://github.com/kissmygritts">Mitchell Gritts</a><br />
-* <i class="fa fa-user"></i> <a href="mgritts.github.io">rNDOW</a><br />
+* <i class="fa fa-user"></i> <a href="http://mgritts.github.io">Website</a><br />
 
 ## References
 
 Available on request.
 
-## Back
-[Back to mgritts.github.io](http://mgritts.github.io)
-
 <!-- ### Footer
 
-Last updated: May 2013 -->
+Last updated: March 2016 -->
