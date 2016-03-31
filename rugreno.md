@@ -28,8 +28,8 @@ Nevada Department of Wildlife Office
 * R news
 * Plan future meetings
 * Talks/Discussion
-  1. Jessi Brown - TBA
-  2. Mitchell Gritts - The "Hadleyverse"
+  1. Mitchell Gritts - The "Hadleyverse"
+  2. Jessi Brown - Bayesian Approaches in R
 
 ## Interested
 
