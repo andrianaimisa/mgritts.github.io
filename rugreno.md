@@ -23,15 +23,14 @@ Nevada Department of Wildlife Office
 6980 Sierra Center Parkway, Suite 120
 
 ### Details
-The first meeting will start with introductions, an introduction to R, then a few quick "lightning talks". After the talks we will discuss general business, and planning for future meetings. Generally meetings will consist of one or two talks about applications of R, tutorials, and troubleshooting R.
 
-### Lightning talks
-
-Please email me if you would like to give a lightning talk!
-
-1. Mitchell Gritts - An Introduction to the "Hadleyverse"
-2. Jessi Brown - TBA
+* Introductions
+* R news
+* Plan future meetings
+* Talks/Discussion
+  1. Jessi Brown - TBA
+  2. Mitchell Gritts - The "Hadleyverse"
 
 ## Interested
 
-Email mitchellgritts@gmail.com to get on an email list for updates. If you would like to give a lightning talk, let me know ASAP (don't be shy, we want to hear what you have to say about R).
+Email mitchellgritts@gmail.com to join an email list for updates. If you would like to give a quick talk about R let me know ASAP (don't be shy, we want to hear what you have to say).
