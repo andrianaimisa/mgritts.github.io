@@ -30,6 +30,8 @@ Exploratory Analysis and Visualization of Animal Movement. (The Wildlife Society
 ### Poster
 
 `2016`
+Shiny and Leaflet for Wildlife Management Applications. (FOSS4G NA)
+
 Designing a Wildlife Encounter and Health Data Management System. (The Wildlife Society, Western Section)
 
 `2011`
@@ -45,7 +47,7 @@ Has Recent Climate Change Caused a Genetic Bottleneck in a Sierra Nevada Populat
 * SQL
 * VBA
 * Data visualization
-* Shiny
+* Shiny applications
 * Python
 
 ## Projects
@@ -53,7 +55,7 @@ Has Recent Climate Change Caused a Genetic Bottleneck in a Sierra Nevada Populat
 ### rNDOW
 An R packaged for data processing, visualization, and analysis for the Nevada Department of Wildlife.
 
-### Telemetry App
+### telemetR
 A Shiny application for the exploratory analysis and visualization of animal movement.
 
 ### NDOW Big Game DMS
