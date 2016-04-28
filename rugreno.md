@@ -7,7 +7,7 @@ title: Reno R Users
 
 ### When  
 
-April 7, 2016 6 - 8pm
+May 12, 2016 6 - 8pm
 
 ### Where  
 
