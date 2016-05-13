@@ -7,20 +7,26 @@ title: Reno R Users
 
 ### When  
 
-May 12, 2016 6 - 8pm
+June 9, 2016. 6 - 8pm
 
 ### Where  
 
-[Nevada Department of Wildlife Office](https://www.google.com/maps/place/6980+Sierra+Center+Pkwy,+Reno,+NV+89511/@39.4625251,-119.7783017,17z/data=!3m1!4b1!4m2!3m1!1s0x80993fe2bf05a73d:0xb4c1229534d5655b)  
-6980 Sierra Center Parkway, Suite 120
+[NDOW Western Region Offices](https://www.google.com/maps/place/1100+Valley+Rd,+Reno,+NV+89512/@39.539581,-119.8095262,17z/data=!3m1!4b1!4m5!3m4!1s0x809947466581b999:0x374bb4c69fb28ce3!8m2!3d39.5395769!4d-119.8073322)  
+1100 Valley Road  
+Reno, NV 89512
 
 ### Details
 
-Parallel in R - Matt McAnear. Data Scientist at Clear Capital
+At this meeting we will showcase several Shiny Applications. Each presentation should include a brief overview of the functionality and a look at the code. Email me if you would like to present.
+
+[Shiny](https://www.rstudio.com/products/shiny/) is an open source R package that provides an elegant and powerful web framework for building web applications using R. Shiny helps you turn your analyses into interactive web applications without requiring HTML, CSS, or JavaScript knowledge.
 
 ## Past Meetings
 
-* 1) The "Hadleyverse" - Mitchell Gritts ([slides, etc](https://drive.google.com/folderview?id=0B1OupsoLNZvkQjl1M29xNWsxVjQ&usp=sharing)), 2016-04-07
+2) [Going Parallel](https://github.com/mcanearm/rrug_presentation) - Matt McAnear. 2016-05-12  
+1) [The "Hadleyverse"](https://docs.google.com/presentation/d/109XsZyQ1rti9MhZUniyk9iaxgSth5hcQZStK9u9b5VQ/edit#slide=id.p) - Mitchell Gritts. 2016-04-07
+
+[Google Drive folder with meeting resources.](https://drive.google.com/folderview?id=0B1OupsoLNZvkQjl1M29xNWsxVjQ&usp=sharing)
 
 ##  About Reno R User Group
 
@@ -34,4 +40,4 @@ Future meetings will be announced ASAP. Generally meetings will consist of one o
 
 ## Interested
 
-Email mitchellgritts@gmail.com to join an email list for updates. If you would like to give a talk about R let me know ASAP (don't be shy, we want to hear what you have to say).
+Email mitchellgritts@gmail.com to join an email list for updates. If you would like to give a talk about R let me know (don't be shy, we want to hear what you have to say).

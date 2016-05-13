@@ -30,8 +30,6 @@ Exploratory Analysis and Visualization of Animal Movement. (The Wildlife Society
 ### Poster
 
 `2016`
-Shiny and Leaflet for Wildlife Management Applications. (FOSS4G NA)
-
 Designing a Wildlife Encounter and Health Data Management System. (The Wildlife Society, Western Section)
 
 `2011`
@@ -52,6 +50,9 @@ Has Recent Climate Change Caused a Genetic Bottleneck in a Sierra Nevada Populat
 
 ## Projects
 
+### ComCol
+A Shiny application for the exploratory analysis and visualization of commercial collection efforts in Nevada.
+
 ### rNDOW
 An R packaged for data processing, visualization, and analysis for the Nevada Department of Wildlife.
 
@@ -70,11 +71,9 @@ Nevada EPSCoR (undergraduate research)
 ## Memberships
 
 `2015-`
-
 The Wildlife Society (Nevada Chapter, Western Section, National)
 
 `2010-12`
-
 The Wildlife Society (Western Section)
 
 ## Links
