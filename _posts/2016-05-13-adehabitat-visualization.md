@@ -14,7 +14,7 @@ tags:
 
 Load the required packages. Be careful when using `adehabitatHR` and `dplyr`, some functions are masked (`select`, `id`) depending on which is loaded first. I tend to load `dplyr` first because it is easier to remember to call the its functions with `dplyr::`.
 
-The point data was gathered using the `rebird` [package](https://ropensci.org/tutorials/rebird_tutorial.html) to get bird observations in Nevada. Download the data... Don't forget the .rda file for the outline of Nevada, it'll give a better spatial context for the point data and polygons we will create.
+The point data was gathered using the `rebird` [package](https://ropensci.org/tutorials/rebird_tutorial.html) to get bird observations in Nevada. [Download the data](https://github.com/mgritts/mgritts.github.io/tree/master/_data). Don't forget the .rda file for the outline of Nevada, it'll give a better spatial context for the point data and polygons we will create.
 
 I wrote the `xyConv` a while back to help me more easily convert between longlat and UTM coordinate systems. It will remove records where there aren't coordinates (`sp::spTransform` throws errors if coordinates are blank).
 
@@ -146,4 +146,4 @@ leaflet(sdf_poly) %>% addTiles() %>%
 
 Again, pretty simple! Specifying the color palette is a little difficult/takes some getting used to, however the method is similar for changing other variables such as marker type, marker size, fillOpacity, etc.
 
-I find using ggplot2 and leaflet to be much more flexible than base graphics when it comes to mapping data. There are extensions for ggplot2 that grabs basemaps from google maps or Open Street Maps. 
+I find using ggplot2 and leaflet to be much more flexible than base graphics when it comes to mapping data. There are extensions for ggplot2 that grabs basemaps from google maps or Open Street Maps.
