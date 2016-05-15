@@ -25,6 +25,11 @@ plot(x, y, asp = 1)
 {% endhighlight %}
 
 ![random data](/assets/mcp_data.png)
+<div class="caption">
+  <p class = "caption-text">
+    <em>Plot of randomly generated data for MCP estimation.</em>
+  </p>
+</div>
 
 ## Minimum Convex Polygon
 
@@ -55,6 +60,12 @@ plot(xy, cex = .75, pch = 19, col = 'orange', add = TRUE)
 {% endhighlight %}
 
 ![mcp_plot](/assets/mcp_est.png)
+<div class="caption">
+  <p class = "caption-text">
+    <em>Multiple MCPs with the original data points plotted. Purple = 100%, green = 90%,
+    red = 80%, blue = 70%.</em>
+  </p>
+</div>
 
 As you can see each polygon encompasses fewer and fewer points. Because our data has 100 points each polygon encompasses 100, 90, 80, and 70 points respectively.
 
@@ -84,7 +95,7 @@ mcp.pts <- xy[pct, ]
 
 ### Step 4
 
-The `mcp.pts` dataframe is ready for the convex hull algorithm. [There are many](http://geomalgorithms.com/a10-_hull-1.html) different convex hull algorithms to estimate the minimum convex polygon. I'm sure any computational geometry textbook or website will have a complete explanation of the different implementations of these algorithms. The R function `chull` will estimate the MCP. The algorithm this function uses is from [Eddy 1977](https://www.cs.swarthmore.edu/~adanner/cs97/s08/pdf/ANewConvexHull.pdf) (link to PDF, mayb auto download on some browsers). There may be quicker or more extensible algorithms (3 dimensions), however that is beyond the scope of this post.
+The `mcp.pts` dataframe is ready for the convex hull algorithm. [There are many](http://geomalgorithms.com/a10-_hull-1.html) different convex hull algorithms to estimate the minimum convex polygon. I'm sure any computational geometry textbook or website will have a complete explanation of the different implementations of these algorithms. The R function `chull` will estimate the MCP. The algorithm this function uses is from [Eddy 1977](https://www.cs.swarthmore.edu/~adanner/cs97/s08/pdf/ANewConvexHull.pdf) (link to PDF, may auto download on some browsers). There may be quicker or more extensible algorithms (3 dimensions), however that is beyond the scope of this post.
 
 The first line below does the work, estimating the points that are the vertexes of the MCP polygon. The two following lines are extracting those points then duplicating the first point as the last point to close the polygon.
 
@@ -100,5 +111,10 @@ lines(xy.brdr[, 1], xy.brdr[, 2], col = 'green')
 {% endhighlight %}
 
 ![mcp_manual](/assets/mcp_manual.png)
+<div class="caption">
+  <p class = "caption-text">
+    <em>Manually estimated MCP. Green polygon = 80% mcp and the red point is the centroid.</em>
+  </p>
+</div>
 
 The green polygon above is the same as the red polygon in the example with multiple MCP estimates.

@@ -114,9 +114,18 @@ g + facet_wrap(~id)
 {% endhighlight %}
 
 ![random data](/assets/ggplot.png)
-*basic ggplot map with the kernel densities ovelayed*
+<div class="caption">
+  <p class = "caption-text">
+    <em>ggplot map with overlayed utilization distributions and Nevada outline.</em>
+  </p>
+</div>
+
 ![random data](/assets/facet.png)
-*kernel densities faceted by species*
+<div class="caption">
+  <p class = "caption-text">
+    <em>Kernel density utilization distributions faceted by species.</em>
+  </p>
+</div>
 
 By now it is fairly obvious how poor this example dataset is. the utilization distributions are severely overlapping, but I think the method is clear.
 
@@ -140,10 +149,23 @@ leaflet(sdf_poly) %>% addTiles() %>%
 {% endhighlight %}
 
 ![random data](/assets/leaflet_ex1.png)
-*basic leaflet map of kernel density utilization distribution*
+<div class="caption">
+  <p class = "caption-text">
+    <em>Leaflet map of kernel density distributions without specifying
+    any additional map options</em>
+  </p>
+</div>
+
 ![random data](/assets/leaflet_ex2.png)
-*leaflet map with kernel density, colored by species with a legend*
+<div class="caption">
+  <p class = "caption-text">
+    <em>Leaflet map with kernel density, colored by species with a legend. I've
+    also changed the stroke weight and fill opacity.</em>
+  </p>
+</div>
 
 Again, pretty simple! Specifying the color palette is a little difficult/takes some getting used to, however the method is similar for changing other variables such as marker type, marker size, fillOpacity, etc.
 
 I find using ggplot2 and leaflet to be much more flexible than base graphics when it comes to mapping data. There are extensions for ggplot2 that grabs basemaps from google maps or Open Street Maps.
+
+A note on the size of the KDE. Due to the large area the observations are spread in the dataset the resulting KDE are very large. A better method may be to create a new ID field to use for the estimation of the kernel density. For instance, a combination of species name and county will estimate county wide kernel densities for each species. 
