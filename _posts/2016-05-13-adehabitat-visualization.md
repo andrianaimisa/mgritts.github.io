@@ -12,7 +12,7 @@ tags:
 
 ## Workspace and data
 
-Load the required packages. Be careful when using `adehabitatHR` and `dplyr`, some functions are masked (`select`, `id`) depending on which is loaded first. I tend to load `dplyr` first because it is easier to remember to call the its functions with `dplyr::`.
+Load the required packages. Be careful when using `adehabitatHR` and `dplyr`, some functions are masked (`select`, `id`) depending on which is loaded first. I tend to load `dplyr` first because it is easier to remember to call its functions with `dplyr::`.
 
 The point data was gathered using the `rebird` [package](https://ropensci.org/tutorials/rebird_tutorial.html) to get bird observations in Nevada. [Download the data](https://github.com/mgritts/mgritts.github.io/tree/master/_data). Don't forget the .rda file for the outline of Nevada, it'll give a better spatial context for the point data and polygons we will create.
 
@@ -23,6 +23,7 @@ library(dplyr)
 library(adehabitatHR)
 library(ggplot2)
 library(magrittr)
+library(leaflet)
 
 xyConv <- function(df, xy = c('long_x', 'lat_y'), CRSin = '+proj=longlat',
                    CRSout = '+proj=utm +zone=11') {
@@ -50,7 +51,7 @@ nv <- fortify(nv)
 plot(dat$x, dat$y, asp = 1)
 {% endhighlight %}
 
-The next step is to convert the data to a `SpatialPointsDataFrame`. I've found this to be the easiest way to do that. If you're unfamiliar with the `sp` package I've found this [cheatsheet](http://www.maths.lancs.ac.uk/~rowlings/Teaching/UseR2012/cheatsheet.html) to be helpful.
+The next step is to convert the data to a `SpatialPointsDataFrame`. I've found the following to be the easiest way to do that. If you're unfamiliar with the `sp` package this [cheatsheet](http://www.maths.lancs.ac.uk/~rowlings/Teaching/UseR2012/cheatsheet.html) will be helpful.
 
 {% highlight r %}
 prj <- '+init=epsg:26911'
@@ -100,7 +101,7 @@ As with `SpatialPointsDataFrame`, creating `SpatialPolygonsDataFrame` can be a p
 
 ## Visualizing with ggplot
 
-In the ggplot2 wiki there is an article about [plotting polygon shapefiles](https://github.com/hadley/ggplot2/wiki/plotting-polygon-shapefiles). `ggplot2::fortify` is the function that allows all of this to happen. It takes the `SpatialPolygonsDataFrame` and converts it to a standard dataframe.
+In the ggplot2 wiki there is an article about [plotting polygon shapefiles](https://github.com/hadley/ggplot2/wiki/plotting-polygon-shapefiles). `ggplot2::fortify` is a function that magically converts spatial polygons into a dataframe. It takes the `SpatialPolygonsDataFrame` and converts it to a standard dataframe.
 
 {% highlight r %}
 df <- fortify(sdf_poly)
@@ -127,7 +128,7 @@ g + facet_wrap(~id)
   </p>
 </div>
 
-By now it is fairly obvious how poor this example dataset is. the utilization distributions are severely overlapping, but I think the method is clear.
+By now it is fairly obvious how poor this example dataset is; the utilization distributions are severely overlapping, but I think the method is clear.
 
 ## Visualizing in Leaflet
 
@@ -168,4 +169,4 @@ Again, pretty simple! Specifying the color palette is a little difficult/takes s
 
 I find using ggplot2 and leaflet to be much more flexible than base graphics when it comes to mapping data. There are extensions for ggplot2 that grabs basemaps from google maps or Open Street Maps.
 
-A note on the size of the KDE. Due to the large area the observations are spread in the dataset the resulting KDE are very large. A better method may be to create a new ID field to use for the estimation of the kernel density. For instance, a combination of species name and county will estimate county wide kernel densities for each species. 
+A note on the size of the KDE. Due to the large area the observations are spread in the dataset the resulting KDE are very large. A better method may be to create a new ID field to use for the estimation of the kernel density. For instance, a combination of species name and county will estimate county wide kernel densities for each species.
