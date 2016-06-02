@@ -18,7 +18,7 @@ __University of Nevada, Reno__ - Undergraduate research assistant
 ## Education
 
 `2007-12`
-__University of Nevada, Reno__ BSc Wildlife Ecology and Conservation
+__University of Nevada, Reno__ - B.Sc. Wildlife Ecology and Conservation
 
 ## Presentations
 
@@ -39,28 +39,23 @@ Major Histocompatibility Complex and Mate Choice. (UNR Undergraduate Research Sy
 
 Has Recent Climate Change Caused a Genetic Bottleneck in a Sierra Nevada Population of the Bushy Tailed Woodrat? (Las Vegas, Nevada)
 
-## Technical skills
-
-* R
-* SQL
-* VBA
-* Data visualization
-* Shiny applications
-* Python
-
 ## Projects
 
-### ComCol
+### [CommColl][1]
 A Shiny application for the exploratory analysis and visualization of commercial collection efforts in Nevada.
 
-### rNDOW
+### [rNDOW][2]
 An R packaged for data processing, visualization, and analysis for the Nevada Department of Wildlife.
 
-### telemetR
+### [telemetR][3]
 A Shiny application for the exploratory analysis and visualization of animal movement.
 
 ### NDOW Big Game DMS
 A data management system for the big game encounter and health data.
+
+[1]: https://github.com/ndow-wisr/CommColl
+[2]: https://github.com/ndow-wisr/rNDOW
+[3]: https://github.com/ndow-wisr/telemetR
 
 ## Awards
 
@@ -70,11 +65,23 @@ Nevada EPSCoR (undergraduate research)
 
 ## Memberships
 
+`2016-`
+Reno R User Group (Founder)
+
 `2015-`
 The Wildlife Society (Nevada Chapter, Western Section, National)
 
 `2010-12`
 The Wildlife Society (Western Section)
+
+## Technical skills
+
+* R
+* SQL
+* VBA
+* Data visualization
+* Shiny applications
+* Python
 
 ## Links
 

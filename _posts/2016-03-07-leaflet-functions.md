@@ -50,11 +50,16 @@ CollarMap <- function(dataframe) {
 }
 {% endhighlight %}
 
-In my application the data is read using the `data.table` packaged. The `as.data.table` function is used to ensure that the data is in the proper format. As stated above, I remove all NA from the dataframe using the `complete.cases` function call.
+In my application the data is read using the `data.table` package. The `as.data.table` function is used to ensure that the data is in the proper format. As stated above, I remove all NA from the dataframe using the `complete.cases` function call.
 
 The procedure on line 4 uses the `data.table` syntax to subset the data.table and return every 20 records. I do this to simplify the polylines on the leaflet map. Some of these animals have over 10,000 GPS locations, trying to plot all those makes for a messy map. I use the same method to plot only the 1st and last GPS location as circles on line 9. The resulting map looks like this.
 
 ![CollarMap map](/assets/collarmap.jpg)
+<div class="caption">
+  <p class = "caption-text">
+    <em>A screen shot from the telemetR Shiny application I developed for NDOW. The CollarMap function is used to generate the leaflet map.</em>
+  </p>
+</div>
 
 The second function `DeviceMapping` is similar to the first function, and honestly, should be combined with the first function. I've just been to lazy to do that at this point. The major difference is that this function plots every point and gives each animal a unique color. The function also creates a layer control box that allows user to click layers on and off.
 
@@ -97,9 +102,14 @@ DeviceMapping <- function(dataframe, basemap = "Esri.WorldTopoMap") {
 }
 {% endhighlight %}
 
-The output of this function looks like this:
+The output of this function looks like this.
 
 ![DeviceMapping output](/assets/devicemap.jpg)
+<div class="caption">
+  <p class = "caption-text">
+    <em>Example data from MoveBank plotted using the DeviceMapping function.</em>
+  </p>
+</div>
 
 The last function is used to add polygon layers to the DeviceMap from above. The web application estimates several homeranges for each animal. The home range polygons are saved as a GeoJSON and displayed on the map with the `addGeoJSON` function of leaflet. Like the above functions, it loops through all the unique animals in the GeoJSON and maps them to the correct color. Creating the GeoJSON is a whole other process I'll go over some other time.
 
@@ -117,5 +127,10 @@ DeviceMapping_geojson <- function(device.map, geojson) {
 The result of the DeviceMapping functions produce the following map. The `DeviceMapping` function plots the points and the `DeviceMapping_geojson` functions maps the polygons.
 
 ![DeviceMapping output](/assets/mapud.jpg)
+<div class="caption">
+  <p class = "caption-text">
+    <em>Estimated kernel density utilization distribution for 3 animals. The contours are 50, 75, and 95 percentiles.</em>
+  </p>
+</div>
 
 All these functions are used in the web application. They've also proven useful for everyday use in the office. To generalize or modify them for your specific use case, the major things that need to be changed are the name of the ID field. Our animals ID is called ndowid. Other places are the values used for the labels in the popups when the circle markers are clicked.
