@@ -45,7 +45,7 @@ points(pts, cex = .2, col = rgb(.74, 0, 0, .2), pch = 19)
   </p>
 </div>
 
-## Problem 1: `estUD` or `SpatialPixelsDataFrame` or a list?
+## Problem 1: `estUD` or `SpatialPixelsDataFrame` or a `list`?
 
 A utilization distribution is a surface of utilization probabilities. To create this surface a extent is generated based on the X and Y coordinates of the data, the box is then divided into *n* uniform cells. The size of these cells is specified with the `grid` parameter. The smaller `grid` values correspond to smaller cell sizes (therefore more cells). The `adehabitatHR` [package vignette][3] goes into detail. The `kernelUD` function returns an object of class `estUD`, which extends a `SpatialPixelsDataFrame` by storing the smoothing parameter.
 
@@ -89,6 +89,17 @@ points(pts, cex = .2, col = rgb(.74, 0, 0, .2), pch = 19)
 {% endhighlight %}
 
 The `getContours` function is essentially a rewrite of `adehabitatHR::getverticesHR`. However, this function will return contours for multiple percentiles. `getverticesHR` works for multiple animals. To use `getContours` for multiple animals `lapply` over the list of `estUD` returned with `kernelUD`.
+
+Still confused by all the different polygon calls in this function. This is the clearest explanation of a `SpatialPolygonsDataFrame` I've seen. The figure is from [Applied Spatial Analysis with R][5] (chapter 2). There are figures like this for every Spatial*DataFrame class in `sp`.
+
+![SPDF class](/assets/spolydf.jpg)
+<div class="caption">
+  <p class = "caption-text">
+    <em>How SpatialPolygonsDataFrames are built, from Applied Spatial Analysis with R.</em>
+  </p>
+</div>
+
+There is a minor bug in `getContours` (well an intentional feature, perhaps). I skip the extent validation of `getverticesHR` so that I can the `The grid is too small to allow the estimation of home-range. You should rerun kernelUD with a larger extent parameter.` error that is occasionally thrown. In the context of a shiny application I can't easily rerun the `kernelUD`. On the occasions that this error would be thrown by `getverticesHR`, `getContours` returns skewed polygons. I'm working on this.
 
 ## Problem 3: I want a geoJSON
 
@@ -135,8 +146,13 @@ leaflet() %>% addTiles() %>% mapPolygons(gj) %>% mapPoints(df)
 
 This particular example isn't that great as all the points are from the same animal and the kernel density is estimated with the `dateid` field we created. Each layer can be turned on or off with the layer controls panel in the upper right.
 
-Hopefully this is helpful for mapping adehabitat objects in leaflet. Let me know if there are any errors or questions in the field. I'll respond when I can.
+## Problem 4: problem 1 revisited, `kernelbb`
 
+`kernelbb` is used to estimate the Brownian Bridge utilization distribution (methods and description beyond the scope of this post, [check the vignette][3]). `kernelUD` and `kernelbb` are similar function in that they return the same class. However, running `kernelbb` with one animal returns an object of class `estUD`, multiple animals returns a list of `estUD` (informally `estUDm`). This differs from `kernelUD` which always returns a list of `estUD`, one for each animal. The consequences of this bug are minor. Mainly having to specify `getConts(kd[[1]], pcts)`. In the context of my Shiny application I always `lapply(kd, function(x) getContours(x, pct))` to return the polygons of contours, so I will use `list(bb)`, only if there is one animal, to force `estUD` to a list I can use with `lapply`. A little convoluted, I admit, but it solved a few days of frustration.   
+
+Hopefully this is helpful for mapping adehabitat objects in leaflet. These methods can also be used to make [plotting spatial data in ggplot][2] easier too. Let me know if there are any errors or questions. I'll respond when I can.
+
+[5]: http://www.springer.com/us/book/9781461476177
 [4]: https://gist.github.com/kissmygritts/7d6a94a316ca6eebc5de33786d5550c1
 [3]: https://cran.r-project.org/web/packages/adehabitatHR/vignettes/adehabitatHR.pdf
 [2]: http://mgritts.github.io/2016/05/13/adehabitat-visualization/

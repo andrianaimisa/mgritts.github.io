@@ -47,7 +47,7 @@ html {
 h1, h2, h3, h4, h5, h6 {
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
   font-weight: 400;
-  color: #313131;
+  color: #475b77;
   letter-spacing: -.025rem;
 }
 
@@ -102,15 +102,15 @@ h1, h2, h3, h4, h5, h6 {
 .masthead-title {
   margin-top: 0;
   margin-bottom: 0;
-  color: #505050;
+  color: #475b77;
 }
 .masthead-title a {
-  color: #505050;
+  color: #475b77;
 }
 .masthead-title small {
   font-size: 75%;
   font-weight: 400;
-  color: #c0c0c0;
+  color: #5d5d5d;
   letter-spacing: 0;
 }
 
@@ -150,8 +150,8 @@ h1, h2, h3, h4, h5, h6 {
   overflow-y: auto;
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
   font-size: .875rem; /* 15px */
-  color: rgba(255,255,255,.6);
-  background-color: #202020;
+  color: #5d5d5d;
+  background-color: #f8f8f8;
 }
 @media (min-width: 30rem) {
   .sidebar {
@@ -162,7 +162,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Sidebar content */
 .sidebar a {
   font-weight: normal;
-  color: #fff;
+  color: #6f87a9;
 }
 .sidebar-item {
   padding: 1rem;
@@ -184,7 +184,7 @@ h1, h2, h3, h4, h5, h6 {
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
   text-decoration: none;
-  background-color: rgba(255,255,255,.1);
+  background-color: rgba(111,135,169,.1);
   border-color: transparent;
 }
 
@@ -211,8 +211,8 @@ a.sidebar-nav-item:focus {
   display: block;
   width: 2.2rem;
   padding: .5rem .65rem;
-  color: #505050;
-  background-color: #fff;
+  color: #475b77;
+  background-color: #f8f8f8;
   border-radius: 4px;
   cursor: pointer;
 }
@@ -232,8 +232,8 @@ a.sidebar-nav-item:focus {
 
 .sidebar-toggle:active,
 #sidebar-checkbox:checked ~ .wrap .sidebar-toggle {
-  color: #fff;
-  background-color: #505050;
+  color: #475b77;
+  background-color: #f8f8f8;
 }
 
 @media (min-width: 30.1rem) {
@@ -313,7 +313,7 @@ a.sidebar-nav-item:focus {
 .page-title,
 .post-title,
 .post-title a {
-  color: #303030;
+  color: #475b77;
 }
 .page-title,
 .post-title {
@@ -366,7 +366,7 @@ a.sidebar-nav-item:focus {
   margin-left: -1rem;
   margin-right: -1rem;
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
-  color: #ccc;
+  color: #5d5d5d;
   text-align: center;
 }
 
