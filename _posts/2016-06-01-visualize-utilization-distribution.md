@@ -16,7 +16,7 @@ I've been banging my head against the wall trying to figure out an easy way to w
 
 Warning, if `dplyr` is loaded after `adehabitatHR` 2 functions will be masked from `adehabitatHR` (`adehabitatHR::id` and `MASS::select`), or a dependency. I recommend loading `dplyr` first. `maptools` will install several geographic dependencies if they aren't already installed.
 
-The data is from a mule deer with a GPS collar several years ago. The `sp` package doesn't play nicely with `tbl_df` classes from `dplyr` so convert to a dataframe, then a SpatialPointsDataFrame for use in `adehabitatHR`. I specify the projection of the data with the EPSG ID. I find this to be a shortcut over specifying the entire Coordinate Reference System. 26911 is for UTM Zone 11, 4326 is for WGS84 longlat. Then estimate a kernel density utilization distribution.
+The data is from a animal with a GPS collar several years ago. The `sp` package doesn't play nicely with `tbl_df` classes from `dplyr` so convert to a dataframe, then a SpatialPointsDataFrame for use in `adehabitatHR`. I specify the projection of the data with the EPSG ID. I find this to be a shortcut over specifying the entire Coordinate Reference System. 26911 is for UTM Zone 11, 4326 is for WGS84 longlat. Then estimate a kernel density utilization distribution.
 
 Plot the points and utilization distribution last. I use the colors from `viridis` rather than base R because they look better, and are easier to see.
 
