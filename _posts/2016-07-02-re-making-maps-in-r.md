@@ -27,7 +27,7 @@ We can apply Few's rule to this plot, "Use different colors [*and shapes*] only 
   </p>
 </div>
 
-Here is the code To create my figure. Refer to Jeremy's post for his code.
+Here is the code To create my figure. For more information about the data, and more in depth instruction on using ggplot and the functions to convert the distribution locations to polygons refer to [Jeremy's post][1].
 
 {% highlight r %}
 library(ggplot2)
@@ -88,5 +88,9 @@ leaflet() %>%
 
 It is entirely possible that the changing the shape and color in the original post is to show that it can be done. I undertook this as an exercise to practice my R mapping skills and present an alternative solution to mapping in R using leaflet.
 
+Please check out [The Molecular Ecologist][3] website. It is a wonderful resource for R tutorials and discussion of all aspects of ecology and evolution. You can read more of [Jeremy's helpful tutorials and articles][4] at The Molecular Ecologist.
+
 [1]: http://www.molecularecologist.com/2016/07/making-maps-in-r-volume-2-ggplots/
 [2]: http://www.perceptualedge.com/articles/visual_business_intelligence/rules_for_using_color.pdf
+[3]: http://www.molecularecologist.com/
+[4]: http://www.molecularecologist.com/author/jeremyyoder/
