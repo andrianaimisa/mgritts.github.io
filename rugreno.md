@@ -7,7 +7,7 @@ title: Reno R Users
 
 ### When  
 
-June 9, 2016. 6 - 8pm
+September 15, 2016. 6 - 8pm
 
 ### Where  
 
@@ -17,12 +17,11 @@ Reno, NV 89512
 
 ### Details
 
-At this meeting we will showcase several Shiny Applications. Each presentation should include a brief overview of the functionality and a look at the code. Email me if you would like to present.
-
-[Shiny](https://www.rstudio.com/products/shiny/) is an open source R package that provides an elegant and powerful web framework for building web applications using R. Shiny helps you turn your analyses into interactive web applications without requiring HTML, CSS, or JavaScript knowledge.
+Topic TBD
 
 ## Past Meetings
 
+3) Informal Introduction to Shiny - Mitchell Gritts. 2016-06-09
 2) [Going Parallel](https://github.com/mcanearm/rrug_presentation) - Matt McAnear. 2016-05-12  
 1) [The "Hadleyverse"](https://docs.google.com/presentation/d/109XsZyQ1rti9MhZUniyk9iaxgSth5hcQZStK9u9b5VQ/edit#slide=id.p) - Mitchell Gritts. 2016-04-07
 
