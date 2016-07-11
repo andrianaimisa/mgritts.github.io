@@ -41,21 +41,25 @@ Has Recent Climate Change Caused a Genetic Bottleneck in a Sierra Nevada Populat
 
 ## Projects
 
-### [CommColl][1]
-A Shiny application for the exploratory analysis and visualization of commercial collection efforts in Nevada.
-
-### [rNDOW][2]
-An R packaged for data processing, visualization, and analysis for the Nevada Department of Wildlife.
+### [GameDashboard][4]
+A Shiny application for Nevada Department of Wildlife staff to access big game encounter, health, and survey data. The application connects to the NDOW Big Game DMS and serves as a "data out" portion of the system. The application is hosted on an Amazon EC2 instance. *active development*
 
 ### [telemetR][3]
-A Shiny application for the exploratory analysis and visualization of animal movement.
+A Shiny application for visualizing and exploratory data analsysis of animal telemetry data. Data is wharehoused on a server. Analysis include simple homerange estimation and plotting of several movement parameters (net squared displacement, speed, distance) to help biologists understand individual movement strategies. The application is hosted on an Amazon EC2 instance. *active development*
+
+### CommColl
+A Shiny application for the exploratory analysis and visualization of commercial collection efforts in Nevada. Developed with input from field biologists to detect revisitation and heavily sampled areas in Nevada. The application is hosted on an Amazon EC2 instance.
+
+### [rNDOW][2]
+An package to make data processing, visualization, and analysis simpler for the Nevada Department of Wildlife. The goal of this package is to move most data related tasks to the R environment for more robust and reproducible methodology. *active development*
 
 ### NDOW Big Game DMS
 A data management system for the big game encounter and health data.
 
-[1]: https://github.com/ndow-wisr/CommColl
+
 [2]: https://github.com/ndow-wisr/rNDOW
 [3]: https://github.com/ndow-wisr/telemetR
+[4]: https://github.com/ndow-wisr/GameDashboard
 
 ## Awards
 
