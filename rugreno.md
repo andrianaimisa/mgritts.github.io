@@ -21,7 +21,7 @@ Topic TBD
 
 ## Past Meetings
 
-3) Informal Introduction to Shiny - Mitchell Gritts. 2016-06-09
+3) Informal Introduction to Shiny - Mitchell Gritts. 2016-06-09  
 2) [Going Parallel](https://github.com/mcanearm/rrug_presentation) - Matt McAnear. 2016-05-12  
 1) [The "Hadleyverse"](https://docs.google.com/presentation/d/109XsZyQ1rti9MhZUniyk9iaxgSth5hcQZStK9u9b5VQ/edit#slide=id.p) - Mitchell Gritts. 2016-04-07
 
