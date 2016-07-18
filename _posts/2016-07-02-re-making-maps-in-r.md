@@ -2,9 +2,9 @@
 layout: post
 title: "re: Making Maps in R, volume 2: ggplot"
 tags:
-  - R
+  - r
   - data visualization
-  - ggplot
+  - ggplot2
   - leaflet
   - maps
 ---

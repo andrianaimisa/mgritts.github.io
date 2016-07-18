@@ -2,8 +2,10 @@
 layout: post
 title: "Home range estimation, MCP"
 tags:
-  - R
+  - r
   - movement ecology
+  - spatial
+  - adehabitat
 ---
 
 I've been spending a lot of time over the last several months thinking about animal home ranges, utilization distributions, and movement ecology. All this thinking has gone into a shiny application for the exploratory analysis and visualization of animal movement data. Estimating the home ranges is fairly straight forward. The stumbling block is working with the classes in `adehabitatHR`, `adehabitatLT`, and `sp` R packages and mapping those ranges on an [interactive leaflet map](http://mgritts.github.io/2016/03/07/leaflet-functions/). <!--more-->

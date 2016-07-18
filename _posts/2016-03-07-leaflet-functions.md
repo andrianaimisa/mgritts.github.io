@@ -2,8 +2,10 @@
 layout: post
 title:  "Wrapper functions for Leaflet in R"
 tags:
-  - R
-  - Leaflet
+  - r
+  - leaflet
+  - geojson
+  - spatial
 ---
 
 Over the last several months I've been building a Shiny app for exploratory analysis and visualization of animal movement data. I want the app to be fully interactive so I decided to use leaflet over other mapping packages. Creating this application is also a good opportunity to write some wrapper functions to make analysis in an interactive session easier for the people that I work with.

@@ -2,7 +2,7 @@
 layout: post
 title: "Struggling with Non Standard Evaluation"
 tags:
-  - R
+  - r
   - dplyr
   - data manipulation
 ---

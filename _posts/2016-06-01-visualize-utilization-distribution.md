@@ -2,7 +2,7 @@
 layout: post
 title: "Visualizing utilization distributions, again"
 tags:
-  - R
+  - r
   - sp
   - spatial
   - adehabitat

@@ -2,7 +2,7 @@
 layout: post
 title: "A few of my favorite color palettes"
 tags:
-  - R
+  - r
   - ggplot2
   - data visualization
 ---

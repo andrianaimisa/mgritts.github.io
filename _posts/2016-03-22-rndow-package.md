@@ -2,8 +2,9 @@
 layout: post
 title:  "rNDOW package"
 tags:
-  - R
-  - package
+  - r
+  - package development
+  - spatial
 ---
 
 Over the last few months I've been writing tons of R functions. They all go to GitHub, but they aren't easily used in R. Each time I want to use one I have to use `source('url.to.repo')`. I finally decided it was time to write an R package to more easily access these functions, and make them more user friendly for my colleagues.

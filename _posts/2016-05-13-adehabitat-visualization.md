@@ -2,7 +2,7 @@
 layout: post
 title: "adehabitatHR visualization"
 tags:
-  - R
+  - r
   - sp
   - spatial
   - adehabitat
