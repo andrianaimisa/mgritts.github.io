@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Navigating EC2 with the Command Line"
+comments: true
 tags:
   - lab notebook
   - aws
