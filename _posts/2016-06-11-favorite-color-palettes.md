@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "A few of my favorite color palettes"
+comments: true
 tags:
   - r
   - ggplot2

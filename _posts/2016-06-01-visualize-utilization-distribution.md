@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Visualizing utilization distributions, again"
+comments: true
 tags:
   - r
   - sp

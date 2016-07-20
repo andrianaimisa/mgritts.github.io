@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "adehabitatHR visualization"
+comments: true
 tags:
   - r
   - sp

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Struggling with Non Standard Evaluation"
+comments: true
 tags:
   - r
   - dplyr

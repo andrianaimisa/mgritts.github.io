@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Home range estimation, MCP"
+comments: true
 tags:
   - r
   - movement ecology

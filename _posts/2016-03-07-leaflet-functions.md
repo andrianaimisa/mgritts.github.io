@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Wrapper functions for Leaflet in R"
+comments: true
 tags:
   - r
   - leaflet

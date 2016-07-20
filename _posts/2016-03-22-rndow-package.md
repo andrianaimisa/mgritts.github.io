@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "rNDOW package"
+comments: true
 tags:
   - r
   - package development

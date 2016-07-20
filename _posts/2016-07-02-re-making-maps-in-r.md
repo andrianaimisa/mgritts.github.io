@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "re: Making Maps in R, volume 2: ggplot"
+comments: true
 tags:
   - r
   - data visualization
