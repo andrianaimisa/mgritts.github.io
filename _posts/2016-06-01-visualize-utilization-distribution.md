@@ -39,8 +39,8 @@ image(getvolumeUD(kd[[1]]), col = rev(viridis(15)))
 points(pts, cex = .2, col = rgb(.74, 0, 0, .2), pch = 19)
 {% endhighlight %}
 
-![volumeUD](/assets/kdud.png)
-<div class="caption">
+<div class="photo-caption">
+  <img src="/assets/kdud.png" alt="volumeUD" />
   <p class = "caption-text">
     <em>getvolumeUD figure plotted from the estimated kernel density with the points from the SpatialPointsDataFrame plotted. Brighter colors represent lower percentiles.</em>
   </p>
@@ -93,8 +93,8 @@ The `getContours` function is essentially a rewrite of `adehabitatHR::getvertice
 
 Still confused by all the different polygon calls in this function. This is the clearest explanation of a `SpatialPolygonsDataFrame` I've seen. The figure is from [Applied Spatial Analysis with R][5] (chapter 2). There are figures like this for every Spatial*DataFrame class in `sp`.
 
-![SPDF class](/assets/spolydf.jpg)
-<div class="caption">
+<div class="photo-caption">
+  <img src="/assets/spolydf.jpg" alt="spdf class" />
   <p class = "caption-text">
     <em>How SpatialPolygonsDataFrames are built, from Applied Spatial Analysis with R.</em>
   </p>
@@ -116,8 +116,8 @@ leaflet() %>% addTiles() %>%
                    radius = 3, fillOpacity = .2)
 {% endhighlight %}
 
-![getcountours](/assets/getcontours.jpg)
-<div class="caption">
+<div class="photo-caption">
+  <img src="/assets/getcontours.jpg" alt="getcontours" />
   <p class = "caption-text">
     <em>Leaflet map of the polygons returned from getContours. Smaller percent contours are always inside higher percent contours.</em>
   </p>
@@ -138,8 +138,8 @@ gj <- lapply(cts, function(x) geojson_json(x))
 leaflet() %>% addTiles() %>% mapPolygons(gj) %>% mapPoints(df)
 {% endhighlight %}
 
-![multiple contours](/assets/multcontours.jpg)
-<div class="caption">
+<div class="photo-caption">
+  <img src="/assets/multcontours.jpg" alt="multiple contours" />
   <p class = "caption-text">
     <em>50% and 90% contours for 17 different kernel density estimates. Each estimate is a different color and can be turned on and off with the layer controls.</em>
   </p>

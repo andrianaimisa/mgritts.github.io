@@ -57,8 +57,8 @@ In my application the data is read using the `data.table` package. The `as.data.
 
 The procedure on line 4 uses the `data.table` syntax to subset the data.table and return every 20 records. I do this to simplify the polylines on the leaflet map. Some of these animals have over 10,000 GPS locations, trying to plot all those makes for a messy map. I use the same method to plot only the 1st and last GPS location as circles on line 9. The resulting map looks like this.
 
-![CollarMap map](/assets/collarmap.jpg)
-<div class="caption">
+<div class="photo-caption">
+  <img src="/assets/collarmap.jpg" alt="collar map" />
   <p class = "caption-text">
     <em>A screen shot from the telemetR Shiny application I developed for NDOW. The CollarMap function is used to generate the leaflet map.</em>
   </p>
@@ -107,8 +107,8 @@ DeviceMapping <- function(dataframe, basemap = "Esri.WorldTopoMap") {
 
 The output of this function looks like this.
 
-![DeviceMapping output](/assets/devicemap.jpg)
-<div class="caption">
+<div class="photo-caption">
+  <img src="/assets/devicemap.jpg" alt="device map output" />
   <p class = "caption-text">
     <em>Example data from MoveBank plotted using the DeviceMapping function.</em>
   </p>
@@ -129,8 +129,8 @@ DeviceMapping_geojson <- function(device.map, geojson) {
 
 The result of the DeviceMapping functions produce the following map. The `DeviceMapping` function plots the points and the `DeviceMapping_geojson` functions maps the polygons.
 
-![DeviceMapping output](/assets/mapud.jpg)
-<div class="caption">
+<div class="photo-caption">
+  <img src="/assets/mapud.jpg" alt="devicemapping output" />
   <p class = "caption-text">
     <em>Estimated kernel density utilization distribution for 3 animals. The contours are 50, 75, and 95 percentiles.</em>
   </p>

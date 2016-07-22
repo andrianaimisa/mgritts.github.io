@@ -115,15 +115,15 @@ g
 g + facet_wrap(~id)
 {% endhighlight %}
 
-![random data](/assets/ggplot.png)
-<div class="caption">
+<div class="photo-caption">
+  <img src="/assets/ggplot.png" alt="random data" />
   <p class = "caption-text">
     <em>ggplot map with overlayed utilization distributions and Nevada outline.</em>
   </p>
 </div>
 
-![random data](/assets/facet.png)
-<div class="caption">
+<div class="photo-caption">
+  <img src="/assets/facet.png" alt="random data" />
   <p class = "caption-text">
     <em>Kernel density utilization distributions faceted by species.</em>
   </p>
@@ -150,16 +150,16 @@ leaflet(sdf_poly) %>% addTiles() %>%
   addLegend('bottomleft', pal = pal, values = ~id, title = 'Species')
 {% endhighlight %}
 
-![random data](/assets/leaflet_ex1.png)
-<div class="caption">
+<div class="photo-caption">
+  <img src="/assets/leaflet_ex1.png" alt="random data" />
   <p class = "caption-text">
     <em>Leaflet map of kernel density distributions without specifying
     any additional map options</em>
   </p>
 </div>
 
-![random data](/assets/leaflet_ex2.png)
-<div class="caption">
+<div class="photo-caption">
+  <img src="/assets/leaflet_ex2.png" alt="random data" />
   <p class = "caption-text">
     <em>Leaflet map with kernel density, colored by species with a legend. I've
     also changed the stroke weight and fill opacity.</em>

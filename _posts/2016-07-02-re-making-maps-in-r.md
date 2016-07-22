@@ -12,17 +12,17 @@ tags:
 
 Jeremy Yoder wrote a wrote a [post on The Molecular Ecologist][1] about plotting location data in ggplot. It is a very informative post. However, I disagree with one (minor) aesthetic choice. The species in his figure have different colors and shapes. I am very opinionated about data visualization, all my friends can attest. My opinion follows Stephen Few's ["Practical Rules for Using Color in Charts"][2] "Use different colors only when they correspond to differences of meaning in the data."<!--more-->
 
-![Jeremy Yoder's plot](/assets/r_maps_fig.png)
-<div class="caption">
+<div class="photo-caption">
+  <img src="/assets/r_maps_fig.png" alt="Jeremy Yoder's plot" />
   <p class = "caption-text">
-    <em>Jeremy Yoder's plot from Making Maps in R, volume 2: ggplots, The Molecular Ecologist post. Notice the colors and shapes vary by species.</em>
+    <em>Jeremy Yoder's plot from Making Maps in R, volume 2: ggplots. Notice the colors and shapes vary by species.</em>
   </p>
 </div>
 
 We can apply Few's rule to this plot, "Use different colors [*and shapes*] only when they correspond to differences of meaning in the data." Conforming to this rule, below is my attempt.
 
-![My plot attempt](/assets/my_r_map.jpeg)
-<div class="caption">
+<div class="photo-caption">
+  <img src="/assets/my_r_map.jpeg" alt="map2" />
   <p class = "caption-text">
     <em>My attempt at duplicating the map. I've decided to use only color to represent the differences in species.</em>
   </p>
@@ -80,10 +80,10 @@ leaflet() %>%
   addLegend(position = 'bottomleft', pal = pal, values = locs$Type)
 {% endhighlight %}
 
-![Leaflet version of figure](/assets/r_leaflet.jpg)
-<div class="caption">
+<div class="photo-caption">
+  <img src="/assets/r_leaflet.jpg" alt="Leaflet version" />
   <p class = "caption-text">
-    <em>Leaflet version of the ggplot map.</em>
+    <em>Leaflet version of the ggplot map</em>
   </p>
 </div>
 

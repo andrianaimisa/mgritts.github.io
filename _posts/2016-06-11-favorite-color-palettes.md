@@ -28,8 +28,8 @@ gg + scale_color_gdocs()
 gg + scale_color_viridis(discrete = TRUE)
 {% endhighlight %}
 
-![better than ggplot default color](/assets/colorpal.jpeg)
-<div class="caption">
+<div class="photo-caption">
+  <img src="/assets/colorpal.jpeg" alt="better than ggplot colors" />
   <p class = "caption-text">
     <em>Aren't these color palettes much nicer than the default ggplot2 palette?</em>
   </p>
@@ -56,8 +56,8 @@ plot(dat$carat, dat$price, pch = 19, col = viridis(7))
 
 You can use the same functions to grab colors anytime you need a color palette. Even in leaflet.
 
-![leaflet with gdocs pal](/assets/leaflet_ex2.png)
-<div class="caption">
+<div class="photo-caption">
+  <img src="/assets/leaflet_ex2.png" alt="leaflet with gdocs pal" />
   <p class = "caption-text">
     <em>The gdocs_pal used in a leaflet map.</em>
   </p>

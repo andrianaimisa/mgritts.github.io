@@ -27,8 +27,8 @@ xy <- data.frame(x, y, 'id' = rep('a', 100))
 plot(x, y, asp = 1)
 {% endhighlight %}
 
-![random data](/assets/mcp_data.png)
-<div class="caption">
+<div class="photo-caption">
+  <img src="/assets/mcp_data.png" alt="random data" />
   <p class = "caption-text">
     <em>Plot of randomly generated data for MCP estimation.</em>
   </p>
@@ -62,8 +62,8 @@ plot(mcp_est70, add = TRUE, col = 'blue')
 plot(xy, cex = .75, pch = 19, col = 'orange', add = TRUE)
 {% endhighlight %}
 
-![mcp_plot](/assets/mcp_est.png)
-<div class="caption">
+<div class="photo-caption">
+  <img src="/assets/mcp_est.png" alt="mcp plot" />
   <p class = "caption-text">
     <em>Multiple MCPs with the original data points plotted. Purple = 100%, green = 90%,
     red = 80%, blue = 70%.</em>
@@ -113,8 +113,8 @@ points(centroid[1], centroid[2], pch = 19, col = 'red')
 lines(xy.brdr[, 1], xy.brdr[, 2], col = 'green')
 {% endhighlight %}
 
-![mcp_manual](/assets/mcp_manual.png)
-<div class="caption">
+<div class="photo-caption">
+  <img src="/assets/mcp_manual.png" alt="mcp manual" />
   <p class = "caption-text">
     <em>Manually estimated MCP. Green polygon = 80% mcp and the red point is the centroid.</em>
   </p>

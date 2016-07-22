@@ -13,7 +13,7 @@ The site will also serve as a permanent brain dump for procedures and methods as
 
 ## The Site
 
-This website is built using [Jekyll](https://jekyllrb.com/docs/home/), a blog aware, static website generator. I write posts/pages with a combination of markdown, html, and css run them through Jekyll's renderer spits out the site. I am using the [Poole/Lanyon theme](https://github.com/poole/lanyon) with a few customizations (source code on GitHub). The site is hosted on github using GitHub Pages and Amazon Web Services S3. I use [s3_website](https://github.com/laurilehmijoki/s3_website) to push the site to AWS. (Tutorial to be written soon).
+This website is built using [Jekyll](https://jekyllrb.com/docs/home/), a blog aware, static website generator. I write posts/pages with a combination of markdown, html, and css in [Atom](https://atom.io/), a text editor by GitHub. I am using the [Poole/Lanyon theme](https://github.com/poole/lanyon) with a few customizations (source code on GitHub). The site is hosted on github using GitHub Pages and Amazon Web Services S3. I use [s3_website](https://github.com/laurilehmijoki/s3_website) to push the site to AWS. (Tutorial to be written soon). My domain name is registered with [hover](https://hover.com/BaFZAVz0), by far one of the easiest (and coolest, they sponsor [Radiotopia](https://www.radiotopia.fm/), my favorite podcast network) DNS providers I've used.
 
 ### Feeds
 
@@ -21,5 +21,7 @@ The following links are RSS feeds. The first is for all my posts, the second for
 
 * [all posts](../atom.xml)
 * [R posts](../feed.r.xml)
+
+---
 
 *Obligatory disclaimer: content herein are solely my own opinions and do not reflect the official policies of the Nevada Department of Wildlife, or the Government of the State of Nevada.*
