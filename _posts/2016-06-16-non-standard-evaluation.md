@@ -8,7 +8,7 @@ tags:
   - data manipulation
 ---
 
-All the functions in `dplyr` (and many of the packages in the "hadleyverse") use Non Standard Evaluation (NSE). NSE is extremely handy and reduces the amount of typing. However functions that use NSE aren't always intuitive to use. <!--more-->I mostly run into this issue when using `dplyr` in a Shiny applications. Most recently I've run into this issue attempting to dynamically filter a `data.frame` on different columns. This [gist][1] has a sample of the data I'm working with.
+All the functions in `dplyr` (and many of the packages in the "hadleyverse") use Non Standard Evaluation (NSE). NSE is extremely handy and generally reduces the amount of typing required. However functions that use NSE aren't always intuitive to use. <!--more-->I mostly run into this issue when using `dplyr` in a Shiny applications. Most recently I've run into this issue attempting to dynamically filter a `data.frame` on different columns. This [gist][1] has a sample of the data I'm working with.
 
 In base R filtering a `data.frame` is fairly straight forward. However a fairly intuitive attempt to use `dplyr::filter` doesn't work, instead returning an empty `data.frame`.
 
