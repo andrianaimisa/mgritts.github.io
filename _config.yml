@@ -5,9 +5,9 @@ markdown:         kramdown
 permalink:        pretty
 
 # Setup
-title:            Mitchell Gritts
-tagline:          'R and Wildlife Ecology'
-description:      'A chronicle of my trials and tribulations in R and wildlife ecology.'
+title:            /mgritts_
+tagline:          'wildlife ecology with a hint of CS'
+description:      'Wildlife ecology with a hint of computer science'
 
 author:
   name:           'Mitchell Gritts'

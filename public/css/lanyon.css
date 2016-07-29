@@ -45,12 +45,15 @@ html {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: 'Inconsolata', monospace;
+  /*font-family: "PT Sans", Helvetica, Arial, sans-serif;*/
   font-weight: 400;
   color: #475b77;
   letter-spacing: -.025rem;
 }
-
+h1.post-title, span.post-date{
+  font-family: 'Inconsolata', monospace;
+}
 
 /*
  * Wrapper
@@ -105,6 +108,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #475b77;
 }
 .masthead-title a {
+  font-family: 'Inconsolata', monospace;
   color: #475b77;
 }
 .masthead-title small {

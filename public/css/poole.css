@@ -431,7 +431,7 @@ a.pagination-item:hover {
   }
 }
 
-/* my CSS stuff */
+/* MY CSS ADDITIONS */
 .tags {
   list-style: none;
   margin: 0;
@@ -489,3 +489,5 @@ a.pagination-item:hover {
 .tag:hover::after {
    border-left-color: #475b77;
 }
+
+/* site-title */
