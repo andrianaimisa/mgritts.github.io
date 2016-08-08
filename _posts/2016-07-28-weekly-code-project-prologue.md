@@ -10,6 +10,13 @@ I've been writing code almost every (work)day for the last 2 years. My skills ha
 
 **TL;DR** - I'm doing one (mostly MEAN, sometimes R) coding project a week.
 
+## Weekly Project - Table of Contents
+
+| Week | Project | Links |
+| --- | --- | --- |
+| 1 | Exploring Leaflet | [blog][7] - [code][8] |
+| 2 | Mongo, Express, Node Blog App | [blog][9] - [code][10] |
+
 ## Background
 
 ### In the Beginning...
@@ -74,3 +81,7 @@ OSSU - [Open Source Society University][6]
 [4]: http://blog.jenniferdewalt.com/post/56319597560/im-learning-to-code-by-building-180-websites-in
 [5]: https://mackenziechild.me/how-i-finally-learned-to-build-stuff-with-rails
 [6]: https://ossu.firebaseapp.com/#/about
+[7]: {% post_url 2016-07-30-coding-project-week1 %}
+[8]: https://github.com/kissmygritts/coding-challenge/tree/master/week1
+[9]: {% post_url 2016-08-08-coding-project-week2-blog-app %}
+[10]: https://github.com/kissmygritts/coding-challenge/tree/master/week2
