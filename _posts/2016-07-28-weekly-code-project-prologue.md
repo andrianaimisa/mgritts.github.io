@@ -16,7 +16,8 @@ I've been writing code almost every (work)day for the last 2 years. My skills ha
 | --- | --- | --- |
 | 1 | Exploring Leaflet | [blog][7] - [code][8] |
 | 2 | Mongo, Express, Node Blog App | [blog][9] - [code][10] |
-| 2 | More RESTful Practice | [blog][11] - [code][12] |
+| 3 | More RESTful Practice | [blog][11] - [code][12] |
+| 4 | YelpCamp | [blog][13] - [code][14] |
 
 ## Background
 
@@ -88,3 +89,5 @@ OSSU - [Open Source Society University][6]
 [10]: https://github.com/kissmygritts/coding-challenge/tree/master/week2
 [11]: {% post_url 2016-08-10-coding-project-week3-more-restful-practice %}
 [12]: https://github.com/kissmygritts/coding-challenge/tree/master/week3
+[13]: {% post_url 2016-08-20-coding-project-week4-yelpcamp %}
+[14]: https://github.com/kissmygritts/coding-challenge/tree/master/week4
