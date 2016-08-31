@@ -239,7 +239,10 @@ At the very end I started a node server to accept request. The easiest way to te
 
 Without all of the extra libraries that all the tutorials I've seen Sequelize is very easy to use and set up. Over the next several days I'm going to be working on associations and relationships, migrations and refactoring. At some point I will use Gulp and Sequelize-CLI, but for now building up like this is working well for me.
 
+The code for this post [is here][5], it is inside the repo for the next post.
+
 [1]: {% post_url 2016-08-20-coding-project-week4-yelpcamp %}
 [2]: {% post_url 2016-08-10-coding-project-week3-more-restful-practice %}
 [3]: http://docs.sequelizejs.com/en/v3/
 [4]: https://www.getpostman.com/
+[5]: https://github.com/kissmygritts/coding-challenge/blob/master/week5-express-sequelize/restful-sequelize.js

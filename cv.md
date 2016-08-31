@@ -86,6 +86,9 @@ The Wildlife Society (Western Section)
 * Data visualization
 * Shiny applications
 * Python
+* EC2
+* RDS
+* JavaScript
 
 ## Links
 

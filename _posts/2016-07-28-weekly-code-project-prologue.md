@@ -14,10 +14,12 @@ I've been writing code almost every (work)day for the last 2 years. My skills ha
 
 | Week | Project | Links |
 | --- | --- | --- |
-| 1 | Exploring Leaflet | [blog][7] - [code][8] |
-| 2 | Mongo, Express, Node Blog App | [blog][9] - [code][10] |
-| 3 | More RESTful Practice | [blog][11] - [code][12] |
-| 4 | YelpCamp | [blog][13] - [code][14] |
+| 1 | Exploring Leaflet | [post][7] - [code][8] |
+| 2 | Mongo, Express, Node Blog App | [post][9] - [code][10] |
+| 3 | More RESTful Practice | [post][11] - [code][12] |
+| 4 | YelpCamp | [post][13] - [code][14] |
+| 5 | Sequelize Up and Running | [post][15] - [code][16] |
+| 5.5 | Sequelize Part 2 | [post][17] - [code][18] |
 
 ## Background
 
@@ -91,3 +93,7 @@ OSSU - [Open Source Society University][6]
 [12]: https://github.com/kissmygritts/coding-challenge/tree/master/week3
 [13]: {% post_url 2016-08-20-coding-project-week4-yelpcamp %}
 [14]: https://github.com/kissmygritts/coding-challenge/tree/master/week4
+[15]: {% post_url 2016-08-30-cp5-sequelize-up-running %}
+[16]: https://github.com/kissmygritts/coding-challenge/blob/master/week5-express-sequelize/restful-sequelize.js
+[17]: {% post_url 2016-08-31-cp5.5-sequelize-part-2 %}
+[18]: https://github.com/kissmygritts/coding-challenge/tree/master/week5-express-sequelize
