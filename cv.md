@@ -41,6 +41,9 @@ Has Recent Climate Change Caused a Genetic Bottleneck in a Sierra Nevada Populat
 
 ## Projects
 
+### [ndow-forms][5]
+A web application for Nevada Department of Wildlife that hosts several forms for online data entry. ndow-forms uses a full stack JavaScript framework and a SQL database. The database is a broad framework that attempts to cover many of the different data collection efforts at NDOW. The data will eventually serve several visualization and analytical applications. *active development*
+
 ### [GameDashboard][4]
 A Shiny application for Nevada Department of Wildlife staff to access big game encounter, health, and survey data. The application connects to the NDOW Big Game DMS and serves as a "data out" portion of the system. The application is hosted on an Amazon EC2 instance. *active development*
 
@@ -54,12 +57,13 @@ A Shiny application for the exploratory analysis and visualization of commercial
 An package to make data processing, visualization, and analysis simpler for the Nevada Department of Wildlife. The goal of this package is to move most data related tasks to the R environment for more robust and reproducible methodology. *active development*
 
 ### NDOW Big Game DMS
-A data management system for the big game encounter and health data.
+A data management system for the big game encounter and health data. Developed in Microsoft Access. This is project is completed and will be migrated to SQL Server with a web application for the front-end.
 
 
 [2]: https://github.com/ndow-wisr/rNDOW
 [3]: https://github.com/ndow-wisr/telemetR
 [4]: https://github.com/ndow-wisr/GameDashboard
+[5]: https://github.com/ndow-wisr/ndow-forms
 
 ## Awards
 
@@ -92,14 +96,14 @@ The Wildlife Society (Western Section)
 
 ## Links
 
-* <i class="fa fa-envelope"></i> <a href="mailto:mitchellgritts@gmail.com">mitchellgritts@gmail.com</a><br />
-* <i class="fa fa-github"></i> <a href="http://github.com/kissmygritts">Mitchell Gritts</a><br />
-* <i class="fa fa-user"></i> <a href="http://mgritts.github.io">Website</a><br />
+* <i class="fa fa-envelope"></i> <a href="mailto:mitchellgritts@gmail.com"> mitchellgritts@gmail.com</a><br />
+* <i class="fa fa-github"></i> <a href="http://github.com/kissmygritts"> Mitchell Gritts</a><br />
+* <i class="fa fa-user"></i> <a href="http://mgritts.github.io"> Website</a><br />
 
 ## References
 
 Available on request.
 
-<!-- ### Footer
+### Footer
 
-Last updated: March 2016 -->
+Last updated: October 2016
