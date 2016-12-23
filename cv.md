@@ -7,13 +7,13 @@ title: CV Test
 ## Employment
 
 `2013-`
-__Nevada Department of Wildlife__ - Data manager
+__Nevada Department of Wildlife__ - Data Manager, Biologist
 
 `2012-13`
-__Washington Conservation Corps__ - Assistant supervisor
+__Washington Conservation Corps__ - Assistant Supervisor
 
 `2010-11`
-__University of Nevada, Reno__ - Undergraduate research assistant
+__University of Nevada, Reno__ - Undergraduate Research Assistant
 
 ## Education
 
@@ -23,6 +23,9 @@ __University of Nevada, Reno__ - B.Sc. Wildlife Ecology and Conservation
 ## Presentations
 
 ### Talks
+
+`2017`
+telemetR: a Tool for Managing, Visualizing, and Analyzing Animal Movement Data. (The Wildlife Society, Western Section)
 
 `2016`
 Exploratory Analysis and Visualization of Animal Movement. (The Wildlife Society, Nevada Chapter)
@@ -53,7 +56,7 @@ A Shiny application for visualizing and exploratory data analsysis of animal tel
 ### CommColl
 A Shiny application for the exploratory analysis and visualization of commercial collection efforts in Nevada. Developed with input from field biologists to detect revisitation and heavily sampled areas in Nevada. The application is hosted on an Amazon EC2 instance.
 
-### [rNDOW][2]
+### [wildlife_tools][2]
 An package to make data processing, visualization, and analysis simpler for the Nevada Department of Wildlife. The goal of this package is to move most data related tasks to the R environment for more robust and reproducible methodology. *active development*
 
 ### NDOW Big Game DMS
@@ -92,13 +95,16 @@ The Wildlife Society (Western Section)
 * Python
 * EC2
 * RDS
-* JavaScript
+* Node.JS
+* Express.JS
+* PostgreSQL
+* PostGIS
 
 ## Links
 
 * <i class="fa fa-envelope"></i> <a href="mailto:mitchellgritts@gmail.com"> mitchellgritts@gmail.com</a><br />
 * <i class="fa fa-github"></i> <a href="http://github.com/kissmygritts"> Mitchell Gritts</a><br />
-* <i class="fa fa-user"></i> <a href="http://mgritts.github.io"> Website</a><br />
+* <i class="fa fa-user"></i> <a href="http://mgritts.com"> Website</a><br />
 
 ## References
 
@@ -106,4 +112,4 @@ Available on request.
 
 ### Footer
 
-Last updated: October 2016
+Last updated: December 2016

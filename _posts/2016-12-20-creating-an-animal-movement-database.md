@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Animal Telemetry Database - Creating the Database"
+title: "telemetR: Creating an Animal Movement Database"
 comments: true
 tags:
   - postgresql
@@ -8,27 +8,10 @@ tags:
   - telemetR
 ---
 
-Animal movement data is an important tool for the management of wildlife. The prices and [sizes have decreased][2] (down to 10 grams) and the capabilities and longevity of GPS tracking devices has increased. As GPS telemetry devices become more common the amount of data collected has grown substantially. The increased volume of data has created several new challenges for managing and effectively using this data<!--more-->. Especially in a field that can be loath to adopt new technologies (side note: wildlife management in practice rather than in academia is slow at adopting new technologies). These tools include data warehousing services such as [MoveBank][3], analytical tools like [adehabitat][4] suite of packages for R, and standard GIS software like ArcMap and QGIS. These tools can be inflexible and require moving data between services, file formats, and software. None of these solutions are helpful for storing the volume of data in a easy to use, personal (individual, lab group, or agency), relational database centered system that can be plugged into tools like R and GIS with packages and some coding skills.
+The first post in the telemetR series, creating a PostgreSQL database to store animal movement data.<!--more-->
 
-## TL;DR
-
-Last year I started developing a [Shiny web application][1] (with R) called telemetR for exploratory data analysis and visualization of animal movement data. The application works great however the data is loaded as CSV. This is extremely inefficient, especially when loading millions of records. I've been working on migrating the data from our in-house Microsoft Access database to a PostgreSQL database on AWS to make the application more efficient. I'm currently working on the design and functionality of the database. Over the next few weeks I'll be writing posts about how I've put the system together.
-
-<div class="toc">
-* [The Problem](#the-problem)
-* [A RDBMS Solution](#a-rdbms-solution)
-    * [Data Model](#data-model)
-* [Up and Running](#up-and-running)
-    * [Installing PostgreSQL](#installing-postgressql)
-* [Creating the Database](#creating-the-database)
-    * [Animals Table](#animals-table)
-    * [Devices Table](#devices-table)
-    * [GPS Tables](#gps-tables)
-* [Data Flow](#data-flow)
-    * [Upload Collar Data](#upload-collar-data)
-    * [Insert Collar Data to Telemetry Table](#insert-collar-data-into-telemetry-table)
-    * [Automate GPS Data Flow](#automate-gps-data-flow)
-</div>    
+* TOC
+{:toc}
 
 ## The Problem
 
@@ -467,14 +450,16 @@ Breaking down the code block above:
 
 You should hava a fully functioning RDBMS to manage collar data. The database we've set up closely resembles the data model from Urbano et al. (2010). There are a few minor changes between them. Data should first be entered into the `animals` and `devices` table. Once that data is entered animals can be associated with GPS devices in the `deployments` table. GPS data can be uploaded to the database and will be automatically parsed and inserted into the `telemetry` table in a format that is ready for analysis. In the next post we will extend the PostgreSQL with the spatial tools from PostGIS.
 
-### Telemetr Series
+## Telemetr Series
 
-1. This Post
-2. Extending PostgreSQL with PostGIS
-3. R as a User Interface to the Database
-4. Shiny Web Application For Data Visualization
-5. Node.JS CLI tools
-6. Express Web Application
+1. [Introduction][16]
+2. *[Creating an Animal Movement Database][17]*
+3. [Extending the Database with PostGIS][18]
+4. Connecting to the Database with R
+5. Adding More SQL Functionality
+6. Shiny Web Application
+6. A Simple RESTful API
+7. ... more
 
 [1]: http://shiny.rstudio.com/
 [2]: http://www.sirtrack.co.nz/images/pdfs/LiteTrack_Collars.pdf
@@ -491,3 +476,6 @@ You should hava a fully functioning RDBMS to manage collar data. The database we
 [13]: http://www.postgresqltutorial.com/postgresql-views/
 [14]: https://www.postgresql.org/docs/current/static/sql-createtrigger.html
 [15]: https://www.dropbox.com/sh/9h48ygt19eappdd/AAD1P52e8l1D5I5FHq5X9fh7a?dl=0
+[16]: {% post_url 2016-12-19-telemetr-intro %}
+[17]: {% post_url 2016-12-20-creating-an-animal-movement-database %}
+[18]: {% post_url 2016-12-22-extending-the-database-with-postgis %}

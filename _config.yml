@@ -5,9 +5,9 @@ markdown:         kramdown
 permalink:        pretty
 
 # Setup
-title:            /mgritts_
+title:            mgritts
 tagline:          'wildlife ecology with a hint of CS'
-description:      'Wildlife ecology with a hint of computer science'
+description:      'wildlife ecology with a hint of computer science'
 
 author:
   name:           'Mitchell Gritts'

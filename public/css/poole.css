@@ -128,7 +128,7 @@ strong {
 /* Lists */
 ul, ol, dl {
   margin-top: 0;
-  margin-bottom: 1rem;
+  /*margin-bottom: 1rem;*/
 }
 
 dt {
@@ -136,6 +136,10 @@ dt {
 }
 dd {
   margin-bottom: .5rem;
+}
+
+ul#toc-markdown ul {
+  max-resolution: 0px;
 }
 
 /* Misc */
