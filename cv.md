@@ -61,8 +61,13 @@ Major Histocompatibility Complex and Mate Choice. (UNR Undergraduate Research Sy
 Has Recent Climate Change Caused a Genetic Bottleneck in a Sierra Nevada Population of the Bushy Tailed Woodrat? (Las Vegas, Nevada)
 
 ## Teaching
+
+`2019`
 R Bootcamp - The Wildlife Society (Feb. 2019) 
+
+`2018`
 R Bootcamp - Undergrad Students (Nov. 2018)
+
 R Bootcamp - Grad Students (Sep. 2018)
 
 ## Projects
