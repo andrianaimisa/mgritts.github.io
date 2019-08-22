@@ -67,16 +67,16 @@ R Bootcamp - Grad Students (Sep. 2018)
 ### GUS Database
 A spatial enabled database to store all wildlife related data for the Nevada Department of Wildlife. The database is build with PostgreSQL, with spatial capabilities provided by PostGIS. GUS is an bacronym for Good Useful Schema. *Private repo*
 
-### [gql-gus][https://github.com/kissmygritts/gql-gus]
+### [gql-gus](https://github.com/kissmygritts/gql-gus)
 A GraphQL API built with NodeJS and Apollo Server to serve wildlife data from the GUS database.
 
-### [gus-dashboard][https://github.com/kissmygritts/gus-dashboard]
+### [gus-dashboard](https://github.com/kissmygritts/gus-dashboard)
 A Vue and Leaflet web application for interacting with data stored in the GUS data. 
 
-### [telemetR][https://github.com/kissmygritts/telemetR]
+### [telemetR](https://github.com/kissmygritts/telemetR)
 A Shiny application for visualizing and exploratory data analsysis of animal telemetry data. Data is wharehoused on a server. Analysis include simple homerange estimation and plotting of several movement parameters (net squared displacement, speed, distance) to help biologists understand individual movement strategies. The application is hosted on an Amazon EC2 instance.
 
-### [r-spatial-intro][https://github.com/kissmygritts/r-spatial-intro]
+### [r-spatial-intro](https://github.com/kissmygritts/r-spatial-intro)
 Curriculum for the spatial portion of the R Bootcamp hosted by UNR. 
 
 ## Awards
