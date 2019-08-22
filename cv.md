@@ -7,7 +7,7 @@ title: CV Test
 ## Employment
 
 `2013-`
-__Nevada Department of Wildlife__ - Data Manager, Biologist
+__Nevada Department of Wildlife__ - Developer
 
 `2012-13`
 __Washington Conservation Corps__ - Assistant Supervisor
@@ -73,13 +73,13 @@ R Bootcamp - Grad Students (Sep. 2018)
 ## Projects
 
 ### GUS Database
-A spatial enabled database to store all wildlife related data for the Nevada Department of Wildlife. The database is build with PostgreSQL, with spatial capabilities provided by PostGIS. GUS is an bacronym for Good Useful Schema. *Private repo*
+A spatially enabled database to store all wildlife related data for the Nevada Department of Wildlife. The database is built with PostgreSQL, with spatial capabilities provided by PostGIS. GUS is an bacronym for Good Useful Schema. Deployed to AWS RDS. *Private repo*
 
 ### [gql-gus](https://github.com/kissmygritts/gql-gus)
-A GraphQL API built with NodeJS and Apollo Server to serve wildlife data from the GUS database.
+A GraphQL API built with NodeJS and Apollo Server to serve wildlife data from the GUS database. Currently deployed to AWS Elastic Beanstalk.
 
 ### [gus-dashboard](https://github.com/kissmygritts/gus-dashboard)
-A Vue and Leaflet web application for interacting with data stored in the GUS data. 
+A Vue and Leaflet web application for interacting with data stored in the GUS data. Currently deployed with AWS S3 static website hosting.
 
 ### [telemetR](https://github.com/kissmygritts/telemetR)
 A Shiny application for visualizing and exploratory data analsysis of animal telemetry data. Data is wharehoused on a server. Analysis include simple homerange estimation and plotting of several movement parameters (net squared displacement, speed, distance) to help biologists understand individual movement strategies. The application is hosted on an Amazon EC2 instance.
