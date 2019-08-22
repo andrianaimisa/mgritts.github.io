@@ -24,6 +24,14 @@ __University of Nevada, Reno__ - B.Sc. Wildlife Ecology and Conservation
 
 ### Talks
 
+`2019`
+Nevada Commercial Reptile Collections: A Conservation Success Story (The Wildlife Society, Western Section)
+
+`2018`
+t-LoCoH: Time Local Convex Hulls. (Invited Lecture, UNR)
+Path Segmentation Methods for GPS Collared Ungulates. (28th Annual Pronghorn Workshop)
+migratR: a Method to Identify Migration Timing. (The Wildlife Society, Western Section)
+
 `2017`
 telemetR: a Tool for Managing, Visualizing, and Analyzing Animal Movement Data. (The Wildlife Society, Western Section)
 
@@ -31,7 +39,14 @@ telemetR: a Tool for Managing, Visualizing, and Analyzing Animal Movement Data. 
 Exploratory Analysis and Visualization of Animal Movement. (The Wildlife Society, Nevada Chapter)
 
 ### Poster
+`2019`
+Path Segmentation Methods to Identify Migratory and Partially Migratory Ungulates. (ESRI UC)
 
+`2018`
+Automated Detection of Migration Timing. (ESRI UC)
+
+`2017`
+TelemetR: A Tool for Managing, Visualizing and Analyzing Animal Movement Data. (The Wildlife Society, National)
 `2016`
 Designing a Wildlife Encounter and Health Data Management System. (The Wildlife Society, Western Section)
 
@@ -42,31 +57,27 @@ Major Histocompatibility Complex and Mate Choice. (UNR Undergraduate Research Sy
 
 Has Recent Climate Change Caused a Genetic Bottleneck in a Sierra Nevada Population of the Bushy Tailed Woodrat? (Las Vegas, Nevada)
 
+## Teaching
+R Bootcamp - The Wildlife Society (Feb. 2019) 
+R Bootcamp - Undergrad Students (Nov. 2018)
+R Bootcamp - Grad Students (Sep. 2018)
+
 ## Projects
 
-### [ndow-forms][5]
-A web application for Nevada Department of Wildlife that hosts several forms for online data entry. ndow-forms uses a full stack JavaScript framework and a SQL database. The database is a broad framework that attempts to cover many of the different data collection efforts at NDOW. The data will eventually serve several visualization and analytical applications. *active development*
+### GUS Database
+A spatial enabled database to store all wildlife related data for the Nevada Department of Wildlife. The database is build with PostgreSQL, with spatial capabilities provided by PostGIS. GUS is an bacronym for Good Useful Schema. *Private repo*
 
-### [GameDashboard][4]
-A Shiny application for Nevada Department of Wildlife staff to access big game encounter, health, and survey data. The application connects to the NDOW Big Game DMS and serves as a "data out" portion of the system. The application is hosted on an Amazon EC2 instance. *active development*
+### [gql-gus][https://github.com/kissmygritts/gql-gus]
+A GraphQL API built with NodeJS and Apollo Server to serve wildlife data from the GUS database.
 
-### [telemetR][3]
-A Shiny application for visualizing and exploratory data analsysis of animal telemetry data. Data is wharehoused on a server. Analysis include simple homerange estimation and plotting of several movement parameters (net squared displacement, speed, distance) to help biologists understand individual movement strategies. The application is hosted on an Amazon EC2 instance. *active development*
+### [gus-dashboard][https://github.com/kissmygritts/gus-dashboard]
+A Vue and Leaflet web application for interacting with data stored in the GUS data. 
 
-### CommColl
-A Shiny application for the exploratory analysis and visualization of commercial collection efforts in Nevada. Developed with input from field biologists to detect revisitation and heavily sampled areas in Nevada. The application is hosted on an Amazon EC2 instance.
+### [telemetR][https://github.com/kissmygritts/telemetR]
+A Shiny application for visualizing and exploratory data analsysis of animal telemetry data. Data is wharehoused on a server. Analysis include simple homerange estimation and plotting of several movement parameters (net squared displacement, speed, distance) to help biologists understand individual movement strategies. The application is hosted on an Amazon EC2 instance.
 
-### [wildlife_tools][2]
-An package to make data processing, visualization, and analysis simpler for the Nevada Department of Wildlife. The goal of this package is to move most data related tasks to the R environment for more robust and reproducible methodology. *active development*
-
-### NDOW Big Game DMS
-A data management system for the big game encounter and health data. Developed in Microsoft Access. This is project is completed and will be migrated to SQL Server with a web application for the front-end.
-
-
-[2]: https://github.com/ndow-wisr/rNDOW
-[3]: https://github.com/ndow-wisr/telemetR
-[4]: https://github.com/ndow-wisr/GameDashboard
-[5]: https://github.com/ndow-wisr/ndow-forms
+### [r-spatial-intro][https://github.com/kissmygritts/r-spatial-intro]
+Curriculum for the spatial portion of the R Bootcamp hosted by UNR. 
 
 ## Awards
 
@@ -76,7 +87,10 @@ Nevada EPSCoR (undergraduate research)
 
 ## Memberships
 
-`2016-`
+`2017-`
+Nevada Chapter of the Wildlife Society - Professional Development Chair
+
+`2016-2017`
 Reno R User Group (Founder)
 
 `2015-`
@@ -88,23 +102,27 @@ The Wildlife Society (Western Section)
 ## Technical skills
 
 * R
-* SQL
+* Shiny Applications
+* JavaScript
+* HTML & CSS
 * VBA
 * Data visualization
-* Shiny applications
+* Spatial Data Analysis
+* Movement Ecology
 * Python
-* EC2
-* RDS
-* Node.JS
-* Express.JS
+* AWS
+* NodeJS
+* ExpressJS
+* Leaflet
 * PostgreSQL
 * PostGIS
+* Git
 
 ## Links
 
 * <i class="fa fa-envelope"></i> <a href="mailto:mitchellgritts@gmail.com"> mitchellgritts@gmail.com</a><br />
 * <i class="fa fa-github"></i> <a href="http://github.com/kissmygritts"> Mitchell Gritts</a><br />
-* <i class="fa fa-user"></i> <a href="http://mgritts.com"> Website</a><br />
+* <i class="fa fa-user"></i> <a href="https://blog.mitchellgritts.com/"> Website</a><br />
 
 ## References
 
@@ -112,4 +130,4 @@ Available on request.
 
 ### Footer
 
-Last updated: December 2016
+Last updated: August 2019
