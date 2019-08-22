@@ -49,6 +49,7 @@ Automated Detection of Migration Timing. (ESRI UC)
 
 `2017`
 TelemetR: A Tool for Managing, Visualizing and Analyzing Animal Movement Data. (The Wildlife Society, National)
+
 `2016`
 Designing a Wildlife Encounter and Health Data Management System. (The Wildlife Society, Western Section)
 
