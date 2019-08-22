@@ -28,8 +28,10 @@ __University of Nevada, Reno__ - B.Sc. Wildlife Ecology and Conservation
 Nevada Commercial Reptile Collections: A Conservation Success Story (The Wildlife Society, Western Section)
 
 `2018`
-t-LoCoH: Time Local Convex Hulls. (Invited Lecture, UNR)  
-Path Segmentation Methods for GPS Collared Ungulates. (28th Annual Pronghorn Workshop)  
+t-LoCoH: Time Local Convex Hulls. (Invited Lecture, UNR)
+
+Path Segmentation Methods for GPS Collared Ungulates. (28th Annual Pronghorn Workshop)
+
 migratR: a Method to Identify Migration Timing. (The Wildlife Society, Western Section)
 
 `2017`
