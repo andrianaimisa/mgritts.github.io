@@ -7,7 +7,7 @@ title: CV Test
 ## Employment
 
 `2013-`
-__Nevada Department of Wildlife__ - Developer
+__Nevada Department of Wildlife__ - Data Analyst & Developer
 
 `2012-13`
 __Washington Conservation Corps__ - Assistant Supervisor
@@ -20,15 +20,21 @@ __University of Nevada, Reno__ - Undergraduate Research Assistant
 `2007-12`
 __University of Nevada, Reno__ - B.Sc. Wildlife Ecology and Conservation
 
+## Publications
+
+Jahner JP, Matocq MD, Malaney JL, Cox M, Wolff P, Gritts MA, Parchman TL (2019) The genetic legacy of 50 years of desert bighorn sheep translocations. *Evolutionary Applications* 12:198-213.
+
 ## Presentations
 
 ### Talks
+`2020`
+Telemetry Data Management in R. (The Wildlife Society, Western Section)
 
 `2019`
-Nevada Commercial Reptile Collections: A Conservation Success Story (The Wildlife Society, Western Section)
+Nevada Commercial Reptile Collections: A Conservation Success Story. (The Wildlife Society, Western Section)
 
 `2018`
-t-LoCoH: Time Local Convex Hulls. (Invited Lecture, UNR)
+t-LoCoH: Time Local Convex Hulls. (UNR)
 
 Path Segmentation Methods for GPS Collared Ungulates. (28th Annual Pronghorn Workshop)
 
@@ -41,6 +47,9 @@ telemetR: a Tool for Managing, Visualizing, and Analyzing Animal Movement Data. 
 Exploratory Analysis and Visualization of Animal Movement. (The Wildlife Society, Nevada Chapter)
 
 ### Poster
+`2020`
+Shiny: Interactive Data Analysis in R. (The Wildlife Society, Western Section)
+
 `2019`
 Path Segmentation Methods to Identify Migratory and Partially Migratory Ungulates. (ESRI UC)
 
@@ -62,15 +71,12 @@ Has Recent Climate Change Caused a Genetic Bottleneck in a Sierra Nevada Populat
 
 ## Teaching
 
-`2019`
-R Bootcamp - The Wildlife Society (Feb. 2019) 
-
-`2018`
-R Bootcamp - Undergrad Students (Nov. 2018)
-
-R Bootcamp - Grad Students (Sep. 2018)
+R Bootcamp (2018-2020)
 
 ## Projects
+
+### [{collardb}](https://github.com/kissmygritts/collard)
+An R package to help manage GPS telemetry data.
 
 ### GUS Database
 A spatially enabled database to store all wildlife related data for the Nevada Department of Wildlife. The database is built with PostgreSQL, with spatial capabilities provided by PostGIS. GUS is an bacronym for Good Useful Schema. Deployed to AWS RDS. *Private repo*
@@ -95,17 +101,11 @@ Nevada EPSCoR (undergraduate research)
 
 ## Memberships
 
-`2017-`
+`2019-`
+Nevada Chapter of the Wildlife Society - Rep to the Western Section
+
+`2017-19`
 Nevada Chapter of the Wildlife Society - Professional Development Chair
-
-`2016-2017`
-Reno R User Group (Founder)
-
-`2015-`
-The Wildlife Society (Nevada Chapter, Western Section, National)
-
-`2010-12`
-The Wildlife Society (Western Section)
 
 ## Technical skills
 
@@ -125,12 +125,13 @@ The Wildlife Society (Western Section)
 * PostgreSQL
 * PostGIS
 * Git
+* GraphQL
 
 ## Links
 
-* <i class="fa fa-envelope"></i> <a href="mailto:mitchellgritts@gmail.com"> mitchellgritts@gmail.com</a><br />
+* <i class="fa fa-envelope"></i> <a href="mailto:mitchellgritts@pm.com"> mitchellgritts@pm.com</a><br />
 * <i class="fa fa-github"></i> <a href="http://github.com/kissmygritts"> Mitchell Gritts</a><br />
-* <i class="fa fa-user"></i> <a href="https://blog.mitchellgritts.com/"> Website</a><br />
+* <i class="fa fa-user"></i> <a href="https://mitchellgritts.com/"> Website</a><br />
 
 ## References
 
